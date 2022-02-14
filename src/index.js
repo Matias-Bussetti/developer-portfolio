@@ -16,16 +16,16 @@ import "./assets/vendor/font-awesome/css/font-awesome.min.css";
 import "./assets/css/argon-design-system-react.css";
 
 ReactDOM.render(
-	<>
-		<Navigation />
-		<Greetings />
-		<Skills />
-		<Proficiency />
-		<Education />
-		<Experience />
-		<Feedbacks />
-		<Projects />
-		<GithubProfile />
-	</>,
-	document.getElementById("root")
+  <div>
+    <Navigation />
+    <Greetings />
+    <Skills />
+    <Proficiency />
+    <Education />
+    <Experience />
+    <Feedbacks />
+    <Projects />
+    <GithubProfile />
+  </div>,
+  document.getElementById("root")
 );

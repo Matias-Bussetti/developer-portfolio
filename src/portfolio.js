@@ -1,222 +1,207 @@
 import emoji from "react-easy-emoji";
 
-import googlelogo from "./assets/img/icons/common/google.svg";
-import github from "./assets/img/icons/common/github.svg";
-import airbnb from "./assets/img/icons/common/airbnbLogo.png";
+import municipalidad from "./assets/img/icons/common/municipalidad.png";
+import cv from "./assets/resume/cv.pdf";
 
 export const greetings = {
-	name: "Hanzla Tauqeer",
-	title: "Hi all, I'm Hanzla",
-	description:
-		"A passionate Full Stack Web Developer and Mobile App Developer having an experience of building Web applications with JavaScript / Reactjs / Nodejs / Python / Django / Flask and some other cool libraries and frameworks and Cross Platform Mobile Apps With Flutter.",
-	resumeLink: "https://cv.hanzla.ga",
+  name: "Matias Bussetti",
+  title: "Hola, soy Matias",
+  description:
+    "Me llamo Matías y soy desarrollador Web Full Stack Jr., estudio en la Universidad Provincial del Sudoeste. Tengo experiencia en la creación de aplicación web utilizado tecnologías tales como REACT (frontend) y Laravel (backend), y migrando estas misma a un entorno de la web (Hosting compartido o Shared Hosting), utilizado SSH.",
+  resumeLink: cv,
 };
 
 export const openSource = {
-	githubUserName: "1hanzla100",
+  githubUserName: "Matias-Bussetti",
 };
 
-export const contact = {};
+export const contact = { location: "bahia blanca" };
 
 export const socialLinks = {
-	facebook: "https://www.facebook.com/1hanzla100",
-	instagram: "https://www.instagram.com/1hanzla100",
-	twitter: "https://twitter.com/1hanzla100",
-	github: "https://github.com/1hanzla100",
-	linkedin: "https://www.linkedin.com/in/hanzla-tauqeer-0869281ba/",
+  facebook: "https://www.facebook.com/matiasezequiel.bussetti",
+  instagram: "https://www.instagram.com/bussettimatias/",
+  github: "https://github.com/Matias-Bussetti",
+  linkedin: "https://www.linkedin.com/in/matias-ezequiel-bussetti-82a9531a2/",
 };
 
 export const skillsSection = {
-	title: "What I do",
-	subTitle:
-		"CRAZY FULL STACK DEVELOPER WHO WANTS TO EXPLORE EVERY TECH STACK",
-	skills: [
-		emoji(
-			"⚡ Develop highly interactive Front end / User Interfaces for your web and mobile applications"
-		),
-		emoji(
-			"⚡ Progressive Web Applications ( PWA ) in normal and SPA Stacks"
-		),
-		emoji(
-			"⚡ Integration of third party services such as Firebase/ AWS / Digital Ocean"
-		),
-	],
+  title: "Mis Conocimientos",
+  //subTitle: "Programador Autodidacta y creativo",
+  skills: [
+    "Habilidades Blandas",
+    emoji("⚡ Proactivo"),
+    emoji("⚡ Creativo"),
+    emoji("⚡ Critico"),
+    emoji("⚡ Flexible"),
+    emoji("⚡ Resolutivo"),
+    emoji("⚡ Autodidacta"),
+  ],
 
-	softwareSkills: [
-		{
-			skillName: "html-5",
-			fontAwesomeClassname: "vscode-icons:file-type-html",
-		},
-		{
-			skillName: "css3",
-			fontAwesomeClassname: "vscode-icons:file-type-css",
-		},
-		{
-			skillName: "sass",
-			fontAwesomeClassname: "logos:sass",
-		},
-		{
-			skillName: "JavaScript",
-			fontAwesomeClassname: "logos:javascript",
-		},
-		{
-			skillName: "TypeScript",
-			fontAwesomeClassname: "logos:typescript-icon",
-		},
-		{
-			skillName: "reactjs",
-			fontAwesomeClassname: "vscode-icons:file-type-reactjs",
-		},
-		{
-			skillName: "nodejs",
-			fontAwesomeClassname: "logos:nodejs-icon",
-		},
-		{
-			skillName: "flutter",
-			fontAwesomeClassname: "logos:flutter",
-		},
-		{
-			skillName: "swift",
-			fontAwesomeClassname: "vscode-icons:file-type-swift",
-		},
-		{
-			skillName: "npm",
-			fontAwesomeClassname: "vscode-icons:file-type-npm",
-		},
-		{
-			skillName: "sql-database",
-			fontAwesomeClassname: "vscode-icons:file-type-sql",
-		},
-		{
-			skillName: "mongoDB",
-			fontAwesomeClassname: "vscode-icons:file-type-mongo",
-		},
-		{
-			skillName: "aws",
-			fontAwesomeClassname: "logos:aws",
-		},
-		{
-			skillName: "firebase",
-			fontAwesomeClassname: "logos:firebase",
-		},
-		{
-			skillName: "python",
-			fontAwesomeClassname: "logos:python",
-		},
-		{
-			skillName: "git",
-			fontAwesomeClassname: "logos:git-icon",
-		},
-		{
-			skillName: "docker",
-			fontAwesomeClassname: "logos:docker-icon",
-		},
-	],
+  softwareSkills: [
+    {
+      skillName: "html-5",
+      fontAwesomeClassname: "vscode-icons:file-type-html",
+    },
+    {
+      skillName: "css3",
+      fontAwesomeClassname: "vscode-icons:file-type-css",
+    },
+    {
+      skillName: "sass",
+      fontAwesomeClassname: "logos:sass",
+    },
+    {
+      skillName: "JavaScript",
+      fontAwesomeClassname: "logos:javascript",
+    },
+    {
+      skillName: "reactjs",
+      fontAwesomeClassname: "vscode-icons:file-type-reactjs",
+    },
+    {
+      skillName: "Vue",
+      fontAwesomeClassname: "vscode-icons:file-type-vue",
+    },
+    {
+      skillName: "nodejs",
+      fontAwesomeClassname: "logos:nodejs-icon",
+    },
+    {
+      skillName: "npm",
+      fontAwesomeClassname: "vscode-icons:file-type-npm",
+    },
+    {
+      skillName: "Sql",
+      fontAwesomeClassname: "vscode-icons:file-type-sql",
+    },
+    {
+      skillName: "MySql",
+      fontAwesomeClassname: "vscode-icons:file-type-mysql",
+    },
+    {
+      skillName: "git",
+      fontAwesomeClassname: "logos:git-icon",
+    },
+    {
+      skillName: "PHP",
+      fontAwesomeClassname: "vscode-icons:file-type-php",
+    },
+    {
+      skillName: "Laravel",
+      fontAwesomeClassname: "logos:laravel",
+    },
+    {
+      skillName: "SSH",
+      fontAwesomeClassname: "logos:terminal",
+    },
+    {
+      skillName: "JSON",
+      fontAwesomeClassname: "logos:json",
+    },
+  ],
 };
 
 export const SkillBars = [
-	{
-		Stack: "Frontend/Design", //Insert stack or technology you have experience in
-		progressPercentage: "90", //Insert relative proficiency in percentage
-	},
-	{
-		Stack: "Backend",
-		progressPercentage: "70",
-	},
-	{
-		Stack: "Programming",
-		progressPercentage: "60",
-	},
+  {
+    Stack: "Frontend/Design", //Insert stack or technology you have experience in
+    progressPercentage: "80", //Insert relative proficiency in percentage
+  },
+  {
+    Stack: "Backend",
+    progressPercentage: "80",
+  },
+  {
+    Stack: "Programación",
+    progressPercentage: "100",
+  },
+  {
+    Stack: "Creatividad",
+    progressPercentage: "100",
+  },
 ];
 
 export const educationInfo = [
-	{
-		schoolName: "Harvard University",
-		subHeader: "Master of Science in Computer Science",
-		duration: "September 2017 - April 2019",
-		desc: "Participated in the research of XXX and published 3 papers.",
-		descBullets: [
-			"Lorem ipsum dolor sit amet, consectetur adipdfgiscing elit",
-			"Lorem ipsum dolor sit amet, consectetur adipiscing elit",
-		],
-	},
-	{
-		schoolName: "Harvard",
-		subHeader: "Master of Science in Computer Science",
-		duration: "September 2017 - April 2019",
-		desc: "Participated in the research of XXX and published 3 papers.",
-		descBullets: [
-			"Lorem ipsum dolor sit amet, consectetfgur adipiscing elit",
-			"Lorem ipsum dolor sit amet, consectetur adipiscing elit",
-		],
-	},
-	{
-		schoolName: "Stanford University",
-		subHeader: "Bachelor of Science in Computer Science",
-		duration: "September 2013 - April 2017",
-		desc: "Ranked top 10% in the program. Took courses about Software Engineering, Web Security, Operating Systems, ...",
-		descBullets: [
-			"Lorem ipsum dolorfdg sit amet, consectetur adipiscing elit",
-		],
-	},
+  {
+    schoolName: "Escuela Técnica N°2 Ing. Cesar Cipolletti, Bahía Blanca",
+    subHeader: "Técnico en Informática Personal y Profesional",
+    duration: "2013 - 2019",
+    /*desc: "Participated in the research of XXX and published 3 papers.",
+    descBullets: [
+      "Lorem ipsum dolor sit amet, consectetur adipdfgiscing elit",
+      "Lorem ipsum dolor sit amet, consectetur adipiscing elit",
+    ],*/
+  },
+  {
+    schoolName: "Universidad Provincial del Sudoeste, Pigue",
+    subHeader: "Tecnicatura en Desarrollo de Aplicaciones Web (Primer Año)",
+    duration: "2021",
+    /*
+    desc: "Participated in the research of XXX and published 3 papers.",
+    descBullets: [
+      "Lorem ipsum dolor sit amet, consectetfgur adipiscing elit",
+      "Lorem ipsum dolor sit amet, consectetur adipiscing elit",
+    ],*/
+  },
 ];
 
 export const experience = [
-	{
-		role: "Software Engineer",
-		company: "Google",
-		companylogo: googlelogo,
-		date: "June 2018 – Present",
-		desc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
-		descBullets: [
-			"Lorem ipsum dolor sit amet, consdfgectetur adipiscing elit",
-			"Lorem ipsum dolor sit amet, consectetur adipiscing elit",
-		],
-	},
-	{
-		role: "Front-End Developer",
-		company: "Github",
-		companylogo: github,
-		date: "May 2017 – May 2018",
-		desc: "Lorem ipsum dolor sit amet, consefdctetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
-	},
-	{
-		role: "Software Engineer Intern",
-		company: "Airbnb",
-		companylogo: airbnb,
-		date: "Jan 2015 – Sep 2015",
-		desc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
-	},
+  {
+    role: "Pasantía: Desarrollador Web",
+    company: "Municipalidad de Bahía Blanca",
+    companylogo: municipalidad,
+    date: "Junio 2019 – Septiembre 2019",
+    desc: "En un periodo de 50 días se me dio la tarea de realizar un sistema (ABM) de infracciones semanales. El desarrollo del sistema fue en el FrameWork de Laravel 6.8. En las primeras 3 semanas se me capacitó para	poder usar el framework mencionado. El sistema cuenta con api donde se exporta la información en formato JSON.",
+    /*descBullets: [
+      "Lorem ipsum dolor sit amet, consdfgectetur adipiscing elit",
+      "Lorem ipsum dolor sit amet, consectetur adipiscing elit",
+    ],*/
+  },
 ];
 
 export const projects = [
-	{
-		name: "lorem ipsum",
-		desc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua",
-		link: "https://example.com",
-	},
-	{
-		name: "lorem ipsum",
-		desc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua",
-		github: "https://github.com/1hanzla100",
-	},
-	{
-		name: "lorem ipsum",
-		desc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua",
-		github: "https://github.com/1hanzla100",
-		link: "https://example.com",
-	},
+  {
+    name: "GabiBianchiFitCoach",
+    desc: "Sistema de clases realizado para GabiBianchiFitCoach, en el cual en este puedan administrar sus clientes y a estos poder entregarles el link de Zoom de forma automatizada",
+    link: "https://gabibianchifitcoach.com.ar/",
+  },
+  {
+    name: "GabiBianchiFitCoach v2",
+    desc: "Actualmente trabajo en una segunda versión de lo anterior la cual, en vez de utilizar Laravel para el Backend y Frontend, utilizo React para el frontend y con laravel creo una api la cual pueda funcionar tanto para el frontend como para una aplicación móvil futura",
+    link: "http://digbfctest.site/",
+  },
+
+  {
+    name: "BahiaDomotica",
+    desc: "He actualizado la página de bienvenida, haciendo que esta sea responsive, haciendo un trabajo de SEO (keywords). El resultado de estos cambios: el dueño fue contactado por 2 clientes cerrando una venta a uno de estos",
+    link: "http://www.bahiadomotica.com.ar/",
+  },
+  {
+    name: "Tangaroaentrenamiento",
+    desc: "E-commerce que utiliza un checkout de PayPal, hecho con Laravel (api) y Vue, realizado para un gimnasio de Bahía Blanca",
+    //link: "http://www.tangaroaentrenamiento.com/",
+    github: {
+      link: "https://github.com/Matias-Bussetti/tangaroa-sistema",
+    },
+  },
+  {
+    name: "Js Drag and Drop To Do List",
+    desc: "Lista de tareas desarrollado con JavaScript, la cual te permite crear listas de ejercicios y en estos guardar la cantidad de repeticiones.",
+    demo: "https://matias-bussetti.github.io/JS-Drag-and-Drop-To-Do-List/",
+    github: {
+      link: "https://github.com/Matias-Bussetti/JS-Drag-and-Drop-To-Do-List",
+    },
+  },
 ];
 
 export const feedbacks = [
-	{
-		name: "Hassan Mehmood",
-		feedback:
-			"We have been very happy with our new website! It looks professional and very easy to navigate. Our experience with the customer service at Hanzla tauqeer has been great. They handle things very efficiently and are available for any questions we have. They also keep us updated on daily reports so we know how our site is doing. I would recommend that u have choose hanzla web developer services for u.",
-	},
-	{
-		name: "Maheen Altaf",
-		feedback:
-			"the website is very nice, everything was perfectly made as i need. it just loads in moments, without giving u the chance to wait. the quality is also very amazing. i am using it without any problem. great job",
-	},
+  {
+    name: "GabiBianchiFitCoach",
+    feedback:
+      "Yo Martin Parmigiani, como cofundador del emprendimiento Gabi Bianchi Fitcoach, y como responsable del sector de multimedia, celebro el haber contratado los servicios del Programador Matías Bussetti. Se le requirió que lograra una página web, que le resulte amigable al lector, al cliente y a los administradores de dicha pág.  Que tenga un diseño moderno y que sirviera para gestionar los ingresos y egresos. Estos objetivos fueron alcanzados gracias a que desde el primer contacto ha demostrado  predisposición al trabajo en equipo, al adaptarse a los cambios que se le requirió en la búsqueda de un mejor posicionamiento de la Marca para que este fuera de forma creciente. Ya que de manera urgente nos tuvimos que reinventar en el inicio de la pandemia de COVID-19. Supo asesorar desde su conocimiento y busco a su vez capacitarse para poder llegar al pedido por el cual se lo contrató.",
+  },
+  {
+    name: "Tangaroa Entrenamiento",
+    feedback:
+      "Matías fue súper expeditivo y dispuesto desde el primer día, entendió a la perfección lo que buscábamos y necesitábamos y resolvió la web con rapidez y creatividad. Quedamos más que satisfechos y sin dudarlo volveríamos a llamarlo. Cien por ciento recomendable.",
+  },
 ];
